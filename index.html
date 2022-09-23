@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="script" href="../weather-app/assets/script.js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+    href="../weather-app/assets/style.css"
+    rel="stylesheet"
+    />
     <title>Skys</title>
-</head>
-<body>
+  </head>
+  <body class="row">
+    <header>
+        <h1 class="col s6 offset-s8 green">Weather Dashboard</h1>
 
-    
-</body>
+    </header>
+    <div class="row">
+        <div class="col s3">
+      <h2>Search for a city</h2>
+      <textarea placeholder="Type here"></textarea>
+      <button class="btn waves-effect waves-light green darken-2" type="submit" name="action">
+        Search
+        <i class="material-icons right">search</i>
+      </button>
+    </div>
+
+      <div class="col s9">display area</div>
+    </div>
+
+    <link rel="script" href="../weather-app/assets/script.js" />
+  </body>
 </html>
