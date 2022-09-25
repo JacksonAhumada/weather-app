@@ -1,4 +1,4 @@
-var APIKey = "4dfc7c11589b740565997c3673697b30";
+var APIKey = "058d9811a06090fb1760d402c75df68e";
 var city;
 var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
