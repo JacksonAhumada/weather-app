@@ -13,8 +13,13 @@ searchBtn.addEventListener('click', (event) => {
 
     
     
-    fetch("https://api.openweathermap.org/geo/1.0/direct?q=${cityString}&limit=5&appid=${APIKey}")
-        .then(response => response.json())
-        .then(response => console.log(response))
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${cityString}&limit=5&appid=${APIKey}`)
+        .then((data) => data.json())
+        .then((data) => console.log(data))
         .catch(err => console.error(err));
+        
+        
 });
+
+// var lat = <span id="lat"></span>
+// var lon = <span id="lon"></span>
